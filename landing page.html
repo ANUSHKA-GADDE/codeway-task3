@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Coffee Cafe</title>
+    <style>
+      body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('kafi.jpeg');
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+.hero {
+    background: url('kafi.jpeg') no-repeat center center/cover;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.menu {
+    background: #f4f4f4;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.menu h2 {
+    color: #333;
+}
+
+.menu-item {
+    margin-top: 40px;
+    background: whitesmoke;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px maroon;
+}
+
+.menu-item img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #1e1e1e;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.booking {
+                background-image: url('book.jpeg');
+                padding: 50px 0;
+                text-align: center;
+            }
+    
+            .booking h2 {
+                color: white;
+            }
+    
+            .booking-form {
+                max-width: 400px;
+                margin: 0 auto;
+            }
+    
+            .booking-form label {
+                display: block;
+                margin-bottom: 10px;
+                color: white;
+            }
+    
+            .booking-form input {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+    
+            .about {
+                background:grey;
+                padding: 50px 0;
+                text-align: center;
+            }
+    
+            .about h2 {
+                color: whitesmoke;
+            }
+    
+            .about p {
+                max-width: 800px;
+                margin: 0 auto;
+                color: #555;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style=text-align:center>Coffee Cafe</h1>
+            <p style=text-align:center>Indulge in the Finest Coffee Experience</p>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Welcome to Our Cafe</h2>
+                <p>Indulge in the rich aroma and flavor of our handcrafted coffees.</p>
+                <a href="#menu" class="cta-button">View Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>Menu</h2>
+            <div class="menu-item">
+                <img src="espresso.jpeg" alt="Coffee 1">
+                <h3>Espresso</h3>
+                <p>A strong and concentrated coffee.</p>
+            </div>
+            <div class="menu-item">
+                <img src="cap.jpeg" alt="Coffee 2">
+                <h3>Cappuccino</h3>
+                <p>Espresso with steamed milk and a layer of frothed milk.</p>
+            </div>
+            <section id="booking" class="booking">
+              <div class="container">
+                  <h2>Table Booking</h2>
+                  <div class="booking-form">
+                      <label for="name">Name:</label>
+                      <input type="text" id="name" name="name" placeholder="Your Name">
+      
+                      <label for="email">Email:</label>
+                      <input type="email" id="email" name="email" placeholder="Your Email">
+      
+                      <label for="date">Date:</label>
+                      <input type="date" id="date" name="date">
+      
+                      <label for="time">Time:</label>
+                      <input type="time" id="time" name="time">
+      
+                      <button type="submit" class="cta-button">Book Now</button>
+                  </div>
+              </div>
+          </section>
+      
+          <section id="about" class="about">
+              <div class="container">
+                  <h2>About Us</h2>
+                  <p>
+                      Welcome to Coffee Cafe, where we strive to provide the best coffee experience. 
+                      Our passion for quality coffee is matched only by our commitment to excellent customer service.
+                      Explore our diverse menu and immerse yourself in the cozy atmosphere of our cafe.
+                  </p>
+              </div>
+            </section>
+      
+      </body>
+      </html>
+      
